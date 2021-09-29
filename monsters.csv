@@ -1,8 +1,8 @@
-id, name, cr, xp
-1, Bandit, 8, 25
-2, 10 Bats, 0, 10
-3, Flying Sword, 4, 50
-4, Orc, 2, 450
-5, Ghoul, 1, 200
-6, 5 Orcs, 2, 450
-7, 4 Bandits, 8, 25
+id,name,cr,xp
+1,Bandit,8,25
+2,10 Bats,0,10
+3,Flying Sword,4,50
+4,Orc,2,450
+5,Ghoul,1,200
+6,5 Orcs,2,450
+7,4 Bandits,8,25
