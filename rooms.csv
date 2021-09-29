@@ -1,11 +1,11 @@
-id, name
-1, Barracks
-2, Armory
-3, Kitchen
-4, Summoning Room
-5, Treasure Room
-6, Storage
-7, Forge
-8, Jail
-9, Guard Post
-10, Throne Room
+id,name
+1,Barracks
+2,Armory
+3,Kitchen
+4,Summoning Room
+5,Treasure Room
+6,Storage
+7,Forge
+8,Jail
+9,Guard Post
+10,Throne Room
