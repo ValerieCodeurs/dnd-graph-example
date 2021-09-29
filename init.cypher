@@ -7,7 +7,7 @@ CREATE (:Room {id: toInteger(row.id), name: row.name});
 
 // Import treasures
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/ValerieCodeurs/dnd-graph-example/main/treasures.csv' AS row
-CREATE (:Treasure {id: toInteger(rowid), name: row.name, gp: toInteger(row.gp)});
+CREATE (:Treasure {id: toInteger(row.id), name: row.name, gp: toInteger(row.gp)});
 
 // Import monsters
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/ValerieCodeurs/dnd-graph-example/main/monsters.csv' AS row
