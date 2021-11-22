@@ -17,7 +17,7 @@ MATCH (:Room {id: 1})-[:LEADS_TO]->(r:Room)
 RETURN r.id, r.name
 
 // Nearby room with the biggest treasure
-MATCH (:Room {id: 1})-[:LEADS_TO*1..3]->(r:Room)-[:CONTAINS]->(t:Treasure)
+MATCH (:Room {id: 1})-[:LEADS_TO*1..2]->(r:Room)-[:CONTAINS]->(t:Treasure)
 RETURN r.id, r.name, t.gp
 ORDER BY t.gp DESC
 LIMIT 1
